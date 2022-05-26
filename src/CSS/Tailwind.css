@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+   
+   /* marque elements */
+   .currency {
+     @apply text-xs dark:text-white md:text-[14px] font-bold;
+   }
+   
+   .currency_value {
+     @apply text-[#008001] text-xs md:text-[14px] font-bold;
+   }
+   
+   /* heading */
+   .heading {
+     @apply lg:text-[56px] text-[30px] dark:text-white font-bold leading-[33px] lg:leading-[70px];
+   }
+   
+   .heading-blue {
+     @apply lg:text-[56px] text-[30px] text-primary-blue font-bold leading-[39px] lg:leading-[70px];
+   }
+   
+   .nav-active {
+     @apply text-[#38B6FF] font-extrabold;
+   }
+   
+   .w-padding {
+     @apply xl:px-[100px] md:px-10  px-4 2xl:px-[150px];
+   }
+   .max-w {
+     @apply max-w-[1500px] relative mx-auto;
+   }
+   
+   /* nav items */
+   .nav-items {
+     @apply font-bold text-[15px] dark:hover:text-[#38b6ff] dark:text-white hover:text-[#38B6FF] transition-all duration-300 ease-in-out;
+   }
+   
+   .hover-animation {
+     @apply transition-all ease-in-out duration-300;
+   }
+   
+   /* btn  */
+   
+   .btn_gradient {
+     background: linear-gradient(180deg, #38b6ff 0%, #a2dafb 100%);
+   }
+   
+   .main-btn {
+     @apply md:mt-12 mt-5 btn_gradient hover-animation hover:scale-110 rounded-md inline-flex pl-14 py-4 gap-7 pr-4 items-center;
+   }
+   
+   .btn-text {
+     @apply font-extrabold text-sm sm:text-lg text-white;
+   }
+   
+   .card-gradient {
+     background: linear-gradient(180deg, #a2dafb 0%, #38b6ff 100%);
+   }
+   
+   .bottom-gradient {
+     background: radial-gradient(
+       92.35% 92.35% at 50% 7.65%,
+       rgba(56, 182, 255, 0.1) 0%,
+       #ffffff 100%
+     );
+   }
+   
+   .accordion {
+     @apply dark:text-white;
+   }
+   
+   .accordion-content {
+     @apply dark:text-white;
+   }
+   .other-software-text {
+     @apply font-bold text-[15px] dark:text-white;
+   }
+   
